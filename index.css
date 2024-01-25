@@ -1,0 +1,58 @@
+header {
+    padding: 0.5rem;
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+    gap: 3rem;
+}
+
+input {
+    font-size: 1.5rem;
+    width: 100%;
+    margin-bottom: 15rem;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: blue;
+}
+
+p {
+
+}
+
+#container_btn {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    gap: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1.3rem;
+}
+
+#btn_cri {
+    background-color: #0A3871;
+    color: #fff;
+    border: solid #0A3871;
+}
+
+#btn_des {
+    background-color: transparent;
+    color: #0A3871;
+    border: 0.1rem solid #0A3871;
+}
+
+#container_text {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0.5rem 0.5rem 0.5rem #c7c7c7;
+    text-align: center;
+    height: 10rem;
+}
